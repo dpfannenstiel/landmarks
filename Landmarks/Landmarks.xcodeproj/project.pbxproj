@@ -11,6 +11,8 @@
 		DA548C9D258FB3D300C10A77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA548C9C258FB3D300C10A77 /* ContentView.swift */; };
 		DA548C9F258FB3D700C10A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA548C9E258FB3D700C10A77 /* Assets.xcassets */; };
 		DA548CA2258FB3D700C10A77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA548CA1258FB3D700C10A77 /* Preview Assets.xcassets */; };
+		DA548CAE258FC0C800C10A77 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA548CAD258FC0C800C10A77 /* CircleImage.swift */; };
+		DA548CB1258FC1B200C10A77 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA548CB0258FC1B200C10A77 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		DA548C9E258FB3D700C10A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA548CA1258FB3D700C10A77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA548CA3258FB3D700C10A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA548CAD258FC0C800C10A77 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		DA548CB0258FC1B200C10A77 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				DA548C9A258FB3D300C10A77 /* LandmarksApp.swift */,
-				DA548C9C258FB3D300C10A77 /* ContentView.swift */,
+				DA548CAB258FC0A500C10A77 /* views */,
 				DA548C9E258FB3D700C10A77 /* Assets.xcassets */,
 				DA548CA3258FB3D700C10A77 /* Info.plist */,
 				DA548CA0258FB3D700C10A77 /* Preview Content */,
@@ -67,6 +71,16 @@
 				DA548CA1258FB3D700C10A77 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA548CAB258FC0A500C10A77 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DA548C9C258FB3D300C10A77 /* ContentView.swift */,
+				DA548CAD258FC0C800C10A77 /* CircleImage.swift */,
+				DA548CB0258FC1B200C10A77 /* MapView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA548C9D258FB3D300C10A77 /* ContentView.swift in Sources */,
+				DA548CB1258FC1B200C10A77 /* MapView.swift in Sources */,
 				DA548C9B258FB3D300C10A77 /* LandmarksApp.swift in Sources */,
+				DA548CAE258FC0C800C10A77 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
